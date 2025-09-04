@@ -32,8 +32,8 @@ Upload a PDF, process it into vector embeddings, and ask natural language questi
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/document-qa-bot.git
-cd document-qa-bot
+git clone https://github.com/bobbythomas985/ResumeQABot
+cd ResumeQABot
 ```
 ### 2️⃣ Install Dependencies
 ```bash
