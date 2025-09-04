@@ -41,15 +41,15 @@ pip install -r requirements.txt
 ```
 ### 3️⃣ Set Up Your API Key
 Export your Groq API key as an environment variable:
-####Linux / macOS
+**Linux / macOS**
 ```bash
 export GROQ_API_KEY="your_api_key_here"
 ```
-####Windows
+**Windows**
 ```powershell
 setx GROQ_API_KEY "your_api_key_here"
 ```
-Alternatively, replace the placeholder in app.py:
+Alternatively, replace the placeholder in **app.py**:
 ```python
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your-api-key")
 ```
@@ -72,7 +72,7 @@ python app.py
 ❓ Converts your question into a vector, searches for the **top 3 most relevant chunks**, and prepares a context window.
 
 4️⃣ **Groq API Call**  
-🤖 Sends context + your question to `llama3-8b-8192` model via Groq API → returns a **natural language answer**.
+🌐 Sends context + your question to `llama3-8b-8192` model via Groq API → returns a **natural language answer**.
 
 ---
 
